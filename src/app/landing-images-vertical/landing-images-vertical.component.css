@@ -11,9 +11,42 @@
     flex-shrink: 1;
     background-color: orange;
     border: 3px solid white;
-
+    
 }
-
+.overlay{
+    /* background-color: black; */
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+    z-index: 1;
+}
+.overlay-slogan{
+    word-wrap: break-word;
+    width: 80%;
+    text-align: center;
+}
+.overlay-image{
+    margin-top: -80px;
+    pointer-events: none;
+    z-index: 1;
+    background-color: rgba(22,22,22,0.9);
+    padding: 2%;
+    border: 2px solid white;
+    border-radius: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    
+}
 
 
 .image-1{
@@ -135,6 +168,10 @@
 
 /* SMARTPHONES LANDSCAPE */
 @media only screen and (max-width: 480px) {
+    .overlay-image{
+        margin-top: -440px;
+        width: 90%;
+    }
     .image-1{
         display: none;
     }
@@ -151,6 +188,9 @@
 
 /* TABLETS PORTRAIT */
 @media only screen  and (min-width: 480px) and (max-width: 768px) {
+    .overlay-image{
+        margin-top: -220px;
+    }
     .image-1{
         display: none;
     }
@@ -164,6 +204,9 @@
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .overlay-image{
+        margin-top: -100px;
+    }
     .image-1{
         display: none;
     }
