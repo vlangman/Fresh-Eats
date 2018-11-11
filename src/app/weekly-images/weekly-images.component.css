@@ -1,0 +1,77 @@
+.flex-images{
+    width: 100%;
+    background-color: aquamarine;
+    height: 350px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.image-container{
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  cover;
+}
+
+.image-1{
+	background-image: url("../../assets/food1.jpg");
+}
+.image-2{
+	background-image: url("../../assets/food2.jpg");
+}
+.image-3{
+	background-image: url("../../assets/food3.jpg");
+}
+.image-4{
+	background-image: url("../../assets/food4.jpg");
+}
+.image-5{
+	background-image: url("../../assets/food5.jpeg");
+}
+.image-6{
+	background-image: url("../../assets/food7.jpg");
+}
+.image-7{
+	background-image: url("../../assets/food7.png");
+}
+.image-8{
+	background-image: url("../../assets/food8.jpg");
+}
+.image-9{
+	background-image: url("../../assets/food9.jpg");
+}
+
+
+/* .meal-plan-1{
+	background-image: url("../../assets/broccoli.png");
+}
+
+.meal-plan-2{
+	background-image: url("../../assets/pomegranate.png");
+}
+
+.meal-plan-3{
+	background-image: url("../../assets/vegetables.png");
+}
+
+.meal-plan-4{
+	background-image: url("../../assets/fish.png");
+}
+
+.meal-plan-5{
+	background-image: url("../../assets/steak.png");
+} */
+
+.catering-1{
+	background-image: url("../../assets/catering1.jpg");
+}
+.catering-2{
+	background-image: url("../../assets/catering4.jpeg");
+}
+.catering-3{
+	background-image: url("../../assets/catering3.jpg");
+}
+

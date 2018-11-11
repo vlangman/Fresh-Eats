@@ -1,0 +1,49 @@
+.meal-process-container{
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.step-process{
+    /* flex-grow: 1; */
+
+    flex-shrink: 1;
+    max-width: 360px;
+    /* min-width: 290px; */
+}
+
+
+.order-meal{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+.order-meal-image{
+    width: 100%;
+    height: auto;
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (max-width: 300px) {
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (max-width: 480px) {
+    .meal-process-container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen  and (min-width: 480px) and (max-width: 768px) {
+  
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}

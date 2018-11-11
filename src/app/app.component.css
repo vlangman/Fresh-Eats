@@ -1,3 +1,4 @@
+
 .mainform-images{
 	margin-right: 20px;
 	background-color: blue;
@@ -112,11 +113,6 @@
 }
 .catering-3{
 	background-image: url("../assets/catering3.jpg");
-}
-
-.overlay-1:hover, .overlay-2:hover, .overlay-3:hover, .overlay-4:hover,.overlay-5:hover,.overlay-6:hover{
-	background-color: rgba(0,0,0,0.1);
-	transition: 0.4s;
 }
 
 

@@ -3,9 +3,42 @@
 /* ADDING BOOTSTRAP 4*/
 @import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
+@font-face {
+    font-family: "OstrichSans";
+    src: url("fonts/ostrich-sans-inline-italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OstrichBold";
+    src: url("fonts/ostrich-sans-black.ttf") format("truetype");
+}
+
 
 .body-wrapper{
 	background-color: #c6c6c6;
 	height: 100vh;
 	width: 100vw;
+}
+
+.BoldHeadFont{
+	font-family: OstrichBold;
+}
+.HeadFont{
+    font-family: OstrichSans;
+}
+
+.Palette0{
+	background-color: #031926;
+}
+.Palette1{
+	background-color: #03Cea4;
+}
+.Palette3{
+	background-color: #DFE0E2;
+}
+.Palette4{
+	background-color: #CECECE;
+}
+.Palette5{
+	background-color: #468189;
 }
